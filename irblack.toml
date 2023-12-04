@@ -24,8 +24,8 @@ diagnostic = { fg='sky-fall' } # Code diagnostics in editing area (LSP).
 'ui.cursor.primary' = { fg='black', bg='white'}
 'ui.cursorline.primary' = { bg = 'burnt-charcoal' }
 
-'ui.selection' = { fg='black', bg='belize' } # All currently selected text.
-'ui.selection.primary' = { fg='black', bg='belize' } # The primary selection when there are multiple.
+'ui.selection' = { fg='white', bg='belize' } # All currently selected text.
+'ui.selection.primary' = { fg='white', bg='belize' } # The primary selection when there are multiple.
 
 'ui.linenr' = { fg='light-charcoal' } # Line numbers.
 'ui.linenr.selected' = { fg='cloud' } # Current line number.
@@ -179,7 +179,8 @@ alizarin = '#e74c3c'
 asbestor = '#7f8c8d'
 concrete = '#95a5a6'
 asphalt = '#2c3e50'
-belize = '#b5d5ff'
+# belize = '#b5d5ff'
+belize = '#183357'
 yellow-leaf = '#ffd2a7'
 sky-fall = '#96cbfe'
 wood-charcoal = '#202020'
