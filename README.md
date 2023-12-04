@@ -2,4 +2,4 @@
 Customized IR Black Helix Theme
 
 ## Screenshot
-![IRBlack](screenshot.jpg)
+![IRBlack](screenshot.png)
