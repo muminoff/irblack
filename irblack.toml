@@ -27,8 +27,8 @@ diagnostic = { fg='sky-fall' } # Code diagnostics in editing area (LSP).
 'ui.selection' = { fg='black', bg='belize' } # All currently selected text.
 'ui.selection.primary' = { fg='black', bg='belize' } # The primary selection when there are multiple.
 
-'ui.linenr' = { fg='wood-charcoal' } # Line numbers.
-'ui.linenr.selected' = { fg='light-charcoal' } # Current line number.
+'ui.linenr' = { fg='light-charcoal' } # Line numbers.
+'ui.linenr.selected' = { fg='cloud' } # Current line number.
 
 'ui.virtual' = { } # Namespace for additions to the editing area.
 'ui.virtual.ruler' = { } # Vertical rulers (colored columns in editing area).
@@ -110,9 +110,9 @@ diagnostic = { fg='sky-fall' } # Code diagnostics in editing area (LSP).
 
 'operator' = { fg='#6699cc' } # Logical, mathematical, and other operators.
 
-'function' = { fg='yellow-leaf' }
-'function.builtin' = { fg='sky-fall' }
-'function.method' = { } # Class / Struct methods.
+'function' = { fg='sky-fall' }
+'function.builtin' = {}
+'function.method' = {} # Class / Struct methods.
 'function.macro' = { fg='light-charcoal' }
 'function.special' = { } # Preprocessor function in C.
 
