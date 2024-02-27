@@ -24,8 +24,8 @@ diagnostic = { fg='sky-fall' } # Code diagnostics in editing area (LSP).
 'ui.cursor.primary' = { fg='black', bg='white'}
 'ui.cursorline.primary' = { bg = 'burnt-charcoal' }
 
-'ui.selection' = { fg='white', bg='belize' } # All currently selected text.
-'ui.selection.primary' = { fg='white', bg='belize' } # The primary selection when there are multiple.
+'ui.selection' = { bg='belize' } # All currently selected text.
+'ui.selection.primary' = { bg='belize' } # The primary selection when there are multiple.
 
 'ui.linenr' = { fg='light-charcoal' } # Line numbers.
 'ui.linenr.selected' = { fg='cloud' } # Current line number.
@@ -33,6 +33,9 @@ diagnostic = { fg='sky-fall' } # Code diagnostics in editing area (LSP).
 'ui.virtual' = { } # Namespace for additions to the editing area.
 'ui.virtual.ruler' = { } # Vertical rulers (colored columns in editing area).
 'ui.virtual.whitespace' = { } # Whitespace markers in editing area.
+'ui.virtual.inlay-hint' = "belize"
+# 'ui.virtual.inlay-hint.parameter' = "belize"
+# 'ui.virtual.inlay-hint.type' = "belize"
 
 'ui.statusline' = { fg='light-charcoal' } # Status line.
 'ui.statusline.inactive' = { fg='light-charcoal' } # Status line in unfocused windows.
